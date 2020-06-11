@@ -25,3 +25,6 @@ Testing 104.44.65.0/24...
   3. `wget https://raw.githubusercontent.com/hadiasghari/pyasn/master/pyasn-utils/pyasn_util_convert.py`
   4. `python pyasn_util_download.py --latest`
   5. `python pyasn_util_convert.py --single RIBFILE rib.dat`
+  
+  Alternatively just run the installer (installer.sh)
+  `sh install.sh`
