@@ -19,6 +19,8 @@ Select an option:
 
 Using this option, the script will take a single domain/hostname which it will then perform a lookup against the local ASN database and select a list of IP ranges associated with that ASN.
 
+`Note:` The script can take an input file `main.config` which can be used to prevent scanning specific IP ranges. IP addresses to be avoided should be supplied in a comma delimited format. 
+
 - Specific IPv4 range scan
 
 This option will accept an IP address range `0.0.0.0/0` and attempt to perform SSL connections while printing any identified certs
