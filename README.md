@@ -23,7 +23,7 @@ Using this option, the script will take a single domain/hostname which it will t
 
 - Specific IPv4 range scan
 
-This option will accept an IP address range `0.0.0.0/0` and attempt to perform SSL connections while printing any identified certs
+This option accepts an IP address range `0.0.0.0/0` and attempt to perform SSL connections while printing any identified certs
 
 ## Installation
   1. `pip install -r requirements.txt`
