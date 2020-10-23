@@ -1,7 +1,7 @@
 # ASNRECON
 [![License: Apache](https://img.shields.io/github/license/orlyjamie/asnrecon)](https://img.shields.io/github/license/orlyjamie/asnrecon)
 
-A tool to perform reconaissance using autonomous system number (ASN) lookups combined with SSL cert scanning 📡
+A tool to perform reconnaissance using autonomous system number (ASN) lookups combined with SSL cert scanning 📡
 
 ![](https://raw.githubusercontent.com/orlyjamie/asnrecon/master/screen.png)
 
