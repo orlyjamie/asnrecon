@@ -104,7 +104,7 @@ class IPPoolASN(IPPool):
             asndb = pyasn(ASNDB_FILE_NAME)
         except IOError:
             print('File "%s" is missing. Setup? [y/n]' % ASNDB_FILE_NAME)
-            if str(raw_input()).strip().lower() == 'y':
+            if str(nput()).strip().lower() == 'y':
                 self._install_asndb()
                 asndb = pyasn(ASNDB_FILE_NAME)
             else:
@@ -234,13 +234,13 @@ if __name__ == '__main__':
         makedirs(TMP_DIR_NAME)
 
         print('Select an option:\n\t[1] Full ASN scan\n\t[2] Specific IPv4 range scan')
-        selected = str(raw_input()).strip()
+        selected = str(nput()).strip()
 
         if selected == '1':
-            arg = str(raw_input('Please input the host name: ')).strip()
+            arg = str(nput('Please input the host name: ')).strip()
             cls = IPPoolASN
         elif selected == '2':
-            arg = str(raw_input('Please input the ip range (like 104.36.195.0/24): ')).strip()
+            arg = str(nput('Please input the ip range (like 104.36.195.0/24): ')).strip()
             cls = IPPool
         else:
             raise RuntimeError('Unknown option: "%s".' % selected)
